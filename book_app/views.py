@@ -7,3 +7,5 @@ def reg(request):
     return HttpResponse("reg")
 def reg2(request):
     return HttpResponse("reg2")
+def index(request):
+    return HttpResponse("index")
